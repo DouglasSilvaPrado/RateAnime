@@ -21,7 +21,7 @@
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,9 +29,9 @@
     cursor: pointer;
 }
 
-.dsmovie-pagination-button svg {
+/* .dsmovie-pagination-button svg {
     filter: brightness(0) saturate(100%) invert(26%) sepia(19%) saturate(7395%) hue-rotate(234deg) brightness(89%) contrast(92%);
-}
+} */
 
 .dsmovie-pagination-button:disabled {
     border: 1px solid #c2c2c2;
